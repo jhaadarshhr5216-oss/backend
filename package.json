@@ -9,9 +9,16 @@
   ],
   "license": "ISC",
   "author": "adarsh kumar",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  
+"scripts": {
+  "start": "node src/index.js",
+  "dev": "nodemon src/index.js",
+  "test": "echo \"Error: no test specified\" && exit 1"
+}
+,
+  "devDependencies": {
+    "nodemon": "^3.1.14"
   }
 }
